@@ -1,0 +1,5 @@
+beer = 100
+while beer > 1:
+	print "{0} bottles of beer on the wall, {0} bottles of beer...".format(beer-1)
+	print "If one of those bottles should happen to fall, {0} bottles of beer on the wall".format(beer-2)
+	beer-=1
